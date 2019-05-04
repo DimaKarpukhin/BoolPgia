@@ -1,0 +1,11 @@
+C:\Dima\MTA\Year_2\Semester B\C#\Ex5_C#\B17 Ex05 RonenOren 312408339 DimaKarpukhin 327039640\B17 Ex05 Ronen 312408339 Dima 327039640\bin\Debug\B17_Ex05.exe
+C:\Dima\MTA\Year_2\Semester B\C#\Ex5_C#\B17 Ex05 RonenOren 312408339 DimaKarpukhin 327039640\B17 Ex05 Ronen 312408339 Dima 327039640\bin\Debug\B17_Ex05.pdb
+C:\Dima\MTA\Year_2\Semester B\C#\Ex5_C#\B17 Ex05 RonenOren 312408339 DimaKarpukhin 327039640\B17 Ex05 Ronen 312408339 Dima 327039640\bin\Debug\Logic.dll
+C:\Dima\MTA\Year_2\Semester B\C#\Ex5_C#\B17 Ex05 RonenOren 312408339 DimaKarpukhin 327039640\B17 Ex05 Ronen 312408339 Dima 327039640\bin\Debug\Logic.pdb
+C:\Dima\MTA\Year_2\Semester B\C#\Ex5_C#\B17 Ex05 RonenOren 312408339 DimaKarpukhin 327039640\B17 Ex05 Ronen 312408339 Dima 327039640\obj\Debug\B17 Ex05 RonenOren 312408339 DimaKarpukhin 327039640.csprojAssemblyReference.cache
+C:\Dima\MTA\Year_2\Semester B\C#\Ex5_C#\B17 Ex05 RonenOren 312408339 DimaKarpukhin 327039640\B17 Ex05 Ronen 312408339 Dima 327039640\obj\Debug\B17_Ex05_Ronen_312408339_Dima_327039640.Properties.Resources.resources
+C:\Dima\MTA\Year_2\Semester B\C#\Ex5_C#\B17 Ex05 RonenOren 312408339 DimaKarpukhin 327039640\B17 Ex05 Ronen 312408339 Dima 327039640\obj\Debug\B17 Ex05 RonenOren 312408339 DimaKarpukhin 327039640.csproj.GenerateResource.cache
+C:\Dima\MTA\Year_2\Semester B\C#\Ex5_C#\B17 Ex05 RonenOren 312408339 DimaKarpukhin 327039640\B17 Ex05 Ronen 312408339 Dima 327039640\obj\Debug\B17 Ex05 RonenOren 312408339 DimaKarpukhin 327039640.csproj.CoreCompileInputs.cache
+C:\Dima\MTA\Year_2\Semester B\C#\Ex5_C#\B17 Ex05 RonenOren 312408339 DimaKarpukhin 327039640\B17 Ex05 Ronen 312408339 Dima 327039640\obj\Debug\B17 Ex05 RonenOren 312408339 DimaKarpukhin 327039640.csproj.CopyComplete
+C:\Dima\MTA\Year_2\Semester B\C#\Ex5_C#\B17 Ex05 RonenOren 312408339 DimaKarpukhin 327039640\B17 Ex05 Ronen 312408339 Dima 327039640\obj\Debug\B17_Ex05.exe
+C:\Dima\MTA\Year_2\Semester B\C#\Ex5_C#\B17 Ex05 RonenOren 312408339 DimaKarpukhin 327039640\B17 Ex05 Ronen 312408339 Dima 327039640\obj\Debug\B17_Ex05.pdb
