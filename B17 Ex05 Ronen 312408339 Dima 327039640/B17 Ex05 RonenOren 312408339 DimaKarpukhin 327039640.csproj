@@ -40,7 +40,7 @@
     <Compile Include="FormRunGame.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPickAColor.cs">
+    <Compile Include="PickAColorForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormStartGame.cs">

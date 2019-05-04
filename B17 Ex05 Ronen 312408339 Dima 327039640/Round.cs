@@ -10,14 +10,14 @@
     {
         private const int k_ButtonSize = 40;
         private const int k_GessLeight = 4;
-        private FormRunGame m_FormGame;
-        private FormPickAColor m_FormPickAColor;
+        private RunGameForm m_FormGame;
+        private PickAColorForm m_FormPickAColor;
         // $G$ CSS-999 (-3) This kind of field should be readonly.
         private Button[] m_GuessSeuquence = new Button[k_GessLeight];
         private Button m_ButtonArrow; 
         private Button[] m_ScoreSeuquence = new Button[k_GessLeight];
 
-        public FormRunGame FormGame
+        public RunGameForm FormGame
         {
             get { return m_FormGame; }
             set { m_FormGame = value; }
@@ -74,7 +74,7 @@
 
         private void buttonGuess_Click(object sender, EventArgs e)
         {
-            m_FormPickAColor = new FormPickAColor();
+            m_FormPickAColor = new PickAColorForm();
             m_FormPickAColor.Sender = sender as Button;
             m_FormPickAColor.ShowDialog();
             m_ButtonArrow.Enabled = m_GuessSeuquence[0].UseVisualStyleBackColor && m_GuessSeuquence[1].UseVisualStyleBackColor && m_GuessSeuquence[2].UseVisualStyleBackColor && m_GuessSeuquence[3].UseVisualStyleBackColor;

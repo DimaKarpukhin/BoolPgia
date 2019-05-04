@@ -1,16 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B17 Ex05 RonenOren 312408339 DimaKarpukhin 327039640", "B17 Ex05 Ronen 312408339 Dima 327039640\B17 Ex05 RonenOren 312408339 DimaKarpukhin 327039640.csproj", "{DB669D57-D6BF-4D0B-929F-2049D71D1D4E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{F637566E-172F-475B-BC19-6F7AD8FD33EA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D3DCCAC0-79EF-4945-9C76-C4E1E4348F83}"
-	ProjectSection(SolutionItems) = preProject
-		PersonalDetails.txt = PersonalDetails.txt
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,5 +26,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53968EC4-44C0-45BA-A6D5-B87FCF7565AB}
 	EndGlobalSection
 EndGlobal

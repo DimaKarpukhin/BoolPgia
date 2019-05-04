@@ -12,7 +12,7 @@
         private static int s_NumberOfChances = 4;
         private Button m_ButtonNumberOfChances;
         private Button m_ButtonStart;
-        private FormRunGame m_FormGame;
+        private RunGameForm m_FormGame;
 
         public FormStartGame()
         {
@@ -60,7 +60,7 @@
 
         private void buttonStart_Click(object sender, EventArgs e)
         { 
-            m_FormGame = new FormRunGame(this.NumberOfChances);
+            m_FormGame = new RunGameForm(this.NumberOfChances);
             m_FormGame.ShowDialog();
             this.Close();
         }

@@ -1,13 +1,10 @@
 ﻿namespace B17_Ex05_Ronen_312408339_Dima_327039640
 {
     using System;
-    using System.Collections.Generic;
     using System.Drawing;
-    using System.Text;
     using System.Windows.Forms;
 
-    // $G$ CSS-016 (-3) Bad class name - The name of classes derived from Form should end with Form.
-    public class FormPickAColor : Form
+    public class PickAColorForm : Form
     {
         private const int k_ButtonSize = 40;
         private Button m_ButtonPurple;
@@ -20,7 +17,7 @@
         private Button m_ButtonWhite;
         private Button m_Sender;
  
-        public FormPickAColor()
+        public PickAColorForm()
         {
             this.FormBorderStyle = FormBorderStyle.Fixed3D;
             this.StartPosition = FormStartPosition.CenterScreen;

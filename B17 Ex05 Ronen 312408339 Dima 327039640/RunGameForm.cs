@@ -1,13 +1,10 @@
 ﻿namespace B17_Ex05_Ronen_312408339_Dima_327039640
 {
-    using System;
-    using System.Collections.Generic;
     using System.Drawing;
-    using System.Text;
     using System.Windows.Forms;
     using Logic;
 
-    public class FormRunGame : Form
+    public class RunGameForm : Form
     {
         private const int k_ButtonSize = 40;
         private const int k_GessLeight = 4;
@@ -17,7 +14,7 @@
         private Guess m_CurrentUserGuess;
         private Score m_ScoreOfUserGuess;
 
-        public FormRunGame(int i_NumOfRounds)
+        public RunGameForm(int i_NumOfRounds)
         {
             m_InitialGuess = Guess.BuildRandomGuess();
             this.Text = "Bool Pgia";
