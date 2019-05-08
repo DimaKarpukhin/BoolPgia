@@ -9,7 +9,6 @@
         private const byte k_LengthOfSequence = 4;
         private const char k_BottomOfTheRangeChar = 'A';
         private const char k_TopOfTheRangeChar = 'H';
-        private string m_Sequence;
 
         // $G$ NTT-005 (-10) You should use properties, not Get methods...
         public static byte LengthOfSequence
@@ -17,11 +16,7 @@
             get { return k_LengthOfSequence; }
         }
 
-        public string Sequence
-        {
-            get { return m_Sequence; }
-            set { m_Sequence = value; }
-        }
+        public string Sequence { get; set; }
 
         public static bool TryParse(string i_Str, out Guess o_Guess, out string o_InvalidStrMsg)
         {
@@ -48,7 +43,7 @@
             else
             {
                 o_Guess = new Guess();
-                o_Guess.m_Sequence = i_Str;
+                o_Guess.Sequence = i_Str;
                 o_InvalidStrMsg = null;
                 result = true;
             }
@@ -58,7 +53,7 @@
 
         public static bool AreEqual(Guess i_Guess1, Guess i_Guess2)
         {
-            return i_Guess1.m_Sequence == i_Guess2.m_Sequence;
+            return i_Guess1.Sequence == i_Guess2.Sequence;
         }
 
         public static Guess BuildRandomGuess()
@@ -80,7 +75,7 @@
             }
 
             Guess randomGuess = new Guess();
-            randomGuess.m_Sequence = randomSeq.ToString();
+            randomGuess.Sequence = randomSeq.ToString();
 
             return randomGuess;
         }
