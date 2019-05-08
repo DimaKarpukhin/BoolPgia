@@ -11,10 +11,7 @@
         private const char k_TopOfTheRangeChar = 'H';
 
         // $G$ NTT-005 (-10) You should use properties, not Get methods...
-        public static byte LengthOfSequence
-        {
-            get { return k_LengthOfSequence; }
-        }
+        public static byte LengthOfSequence => k_LengthOfSequence;
 
         public string Sequence { get; set; }
 
