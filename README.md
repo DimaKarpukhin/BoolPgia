@@ -1,5 +1,5 @@
 # "Bool Pgia"
-## The simple windows application that is implemented on C# by using WinForms API
+**The simple windows application that is implemented on C# by using WinForms API**
 
 --------------
 
