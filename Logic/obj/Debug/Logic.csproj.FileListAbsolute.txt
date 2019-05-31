@@ -1,6 +1,0 @@
-C:\Dima\MTA\Year_2\Semester B\C#\Ex5_C#\B17 Ex05 RonenOren 312408339 DimaKarpukhin 327039640\Logic\bin\Debug\Logic.dll
-C:\Dima\MTA\Year_2\Semester B\C#\Ex5_C#\B17 Ex05 RonenOren 312408339 DimaKarpukhin 327039640\Logic\bin\Debug\Logic.pdb
-C:\Dima\MTA\Year_2\Semester B\C#\Ex5_C#\B17 Ex05 RonenOren 312408339 DimaKarpukhin 327039640\Logic\obj\Debug\Logic.csprojAssemblyReference.cache
-C:\Dima\MTA\Year_2\Semester B\C#\Ex5_C#\B17 Ex05 RonenOren 312408339 DimaKarpukhin 327039640\Logic\obj\Debug\Logic.csproj.CoreCompileInputs.cache
-C:\Dima\MTA\Year_2\Semester B\C#\Ex5_C#\B17 Ex05 RonenOren 312408339 DimaKarpukhin 327039640\Logic\obj\Debug\Logic.dll
-C:\Dima\MTA\Year_2\Semester B\C#\Ex5_C#\B17 Ex05 RonenOren 312408339 DimaKarpukhin 327039640\Logic\obj\Debug\Logic.pdb

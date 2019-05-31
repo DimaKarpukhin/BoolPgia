@@ -1,10 +1,11 @@
-﻿namespace B17_Ex05_Ronen_312408339_Dima_327039640
+﻿namespace UI
 {
     public class Program
     {
         public static void Main()
         {
-            StartGameForm form = new StartGameForm();
+            FormStartGame form = new FormStartGame();
+
             form.ShowDialog();
         }
     }

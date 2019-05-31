@@ -1,12 +1,13 @@
-﻿namespace B17_Ex05_Ronen_312408339_Dima_327039640
+﻿namespace UI
 {
     using System.Drawing;
     using System.Windows.Forms;
     using Logic;
 
-    public class RunGameForm : Form
+    public class FormRunGame : Form
     {
-        private const int k_ButtonSize = 40;
+        private const int k_ButtonSize = 50;
+        private const int k_MarginSize = 6;
         private const int k_GessLeight = 4;
         private Button[] m_ButtonsInitialGuess = new Button [k_GessLeight];
         private Round[] m_Rounds;
@@ -14,13 +15,16 @@
         private Guess m_CurrentUserGuess;
         private Score m_ScoreOfUserGuess;
 
-        public RunGameForm(int i_NumOfRounds)
+        public FormRunGame(int i_NumOfRounds)
         {
+            int length = ((k_ButtonSize + k_MarginSize) * (k_GessLeight + 2)) + (k_MarginSize * 2);
+            int height = ((i_NumOfRounds + 1) * (k_ButtonSize + k_MarginSize)) + (k_ButtonSize / 2);
+
             m_InitialGuess = Guess.BuildRandomGuess();
             this.Text = "Bool Pgia";
             this.FormBorderStyle = FormBorderStyle.Fixed3D;
             this.StartPosition = FormStartPosition.CenterScreen;
-            this.ClientSize = new Size((k_ButtonSize * 7) - 10, (i_NumOfRounds * 44) + 66);
+            this.ClientSize = new Size(length, height);
             this.MaximizeBox = false;
 
             m_Rounds = new Round[i_NumOfRounds];
@@ -78,6 +82,7 @@
         {
             string invalidMsg = null;
             Guess guess = null;
+
             if (Guess.TryParse(i_String, out guess, out invalidMsg))
             {
                 m_CurrentUserGuess = guess;
@@ -192,11 +197,15 @@
 
         private void createInitialGuessButtons()
         {
+            int yValue = k_MarginSize;
+
             for (int i = 0; i < k_GessLeight; i++)
             {
+                int xValue = ((k_ButtonSize + k_MarginSize) * i) + k_MarginSize;
+
                 m_ButtonsInitialGuess[i] = new Button();
                 this.Controls.Add(m_ButtonsInitialGuess[i]);
-                m_ButtonsInitialGuess[i].Location = new Point((44 * i) + 4, 8);
+                m_ButtonsInitialGuess[i].Location = new Point(xValue, yValue);
                 m_ButtonsInitialGuess[i].Size = new Size(k_ButtonSize, k_ButtonSize);
                 m_ButtonsInitialGuess[i].BackColor = Color.Black;
                 m_ButtonsInitialGuess[i].Enabled = false;

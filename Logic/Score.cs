@@ -1,11 +1,11 @@
 ﻿namespace Logic
 {
-    using System;
-    using System.Collections.Generic;
     using System.Text;
 
     public class Score
     {
+        private const char k_AcceptChar = 'V';
+        private const char k_RejectChar = 'X';
         private string m_ScoreStr;
 
         public Score(Guess i_UserGuess, Guess i_InitialSequence)
@@ -32,12 +32,11 @@
                     {
                         if (i == j)
                         {
-                            // $G$ CSS-999 (-4) You should have used constant
-                            resLeftPart.Append("V");
+                            resLeftPart.Append(k_AcceptChar);
                         }
                         else
                         {
-                            resRightPart.Append("X");
+                            resRightPart.Append(k_RejectChar);
                         }
 
                         break;

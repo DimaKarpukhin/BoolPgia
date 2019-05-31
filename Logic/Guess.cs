@@ -1,19 +1,24 @@
 ﻿namespace Logic
 {
     using System;
-    using System.Collections.Generic;
-    using System.Text;
 
     public class Guess
     {
         private const byte k_LengthOfSequence = 4;
         private const char k_BottomOfTheRangeChar = 'A';
         private const char k_TopOfTheRangeChar = 'H';
+        private string m_Sequence;
 
-        // $G$ NTT-005 (-10) You should use properties, not Get methods...
-        public static byte LengthOfSequence => k_LengthOfSequence;
+        public static byte LengthOfSequence
+        {
+            get { return k_LengthOfSequence; }
+        }
 
-        public string Sequence { get; set; }
+        public string Sequence
+        {
+            get { return m_Sequence; }
+            set { m_Sequence = value; }
+        }
 
         public static bool TryParse(string i_Str, out Guess o_Guess, out string o_InvalidStrMsg)
         {
